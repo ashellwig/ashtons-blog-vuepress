@@ -7,6 +7,10 @@
   "author": "Ashton Hellwig <ahellwig.dev@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/vuepress dev",
+    "build": "./node_modules/.bin/vuepress build"
+  },
   "dependencies": {
     "vuepress": "^0.13.1"
   }
