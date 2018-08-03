@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "dev": "./node_modules/.bin/vuepress dev",
-    "build": "./node_modules/.bin/vuepress build -d dist/",
+    "build": "./node_modules/.bin/vuepress build -d dist/ && scripts/post-build.sh",
     "deploy": "yarn run build; ./node_modules/.bin/push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
