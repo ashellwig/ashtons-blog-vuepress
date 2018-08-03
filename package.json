@@ -1,0 +1,13 @@
+{
+  "name": "ashtons-blog-vuepress",
+  "version": "0.1.0",
+  "description": "Ashton's personal blog written in Vuepress",
+  "main": "index.js",
+  "repository": "https://github.com/ashellwig/ashtons-blog-vuepress.git",
+  "author": "Ashton Hellwig <ahellwig.dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "vuepress": "^0.13.1"
+  }
+}
