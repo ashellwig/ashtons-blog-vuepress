@@ -6,5 +6,8 @@ module.exports = {
       { text: 'Blog', link: '/blog/' }
     ]
   },
+  // For using ashellwig.github.io/ashtons-blog-vuepress/
   base: '/ashtons-blog-vuepress/'
+  // For using ashellwig.github.io/
+  // base: '/'
 }
