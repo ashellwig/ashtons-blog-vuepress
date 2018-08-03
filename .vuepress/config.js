@@ -6,5 +6,5 @@ module.exports = {
       { text: 'Blog', link: '/blog/' }
     ]
   },
-  base: 'ashtons-blog-vuepress/'
+  base: '/ashtons-blog-vuepress/'
 }
